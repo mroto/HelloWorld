@@ -22,6 +22,7 @@ public class MainActivity extends Activity {
         //lanza secondActivity con result:
         Intent myIntent = new Intent(this, SecondActivity.class);
         startActivityForResult(myIntent, 0);
+
     }
 
     @Override
